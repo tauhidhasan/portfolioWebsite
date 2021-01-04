@@ -5,6 +5,7 @@ body {
         sans-serif;
     margin: 0;
     padding: 0;
+    text-align: justify;
 
 
 }
@@ -41,6 +42,8 @@ h2 {
     overflow: hidden;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    margin-top: 3%;
+    width: 100%;
 }
 
 .half-width {
@@ -69,8 +72,51 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    font: {
-        size: 20vw;
-        family: $font;
+}
 
-    }
+.dream-area {
+    width: 100%;
+    overflow: hidden;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exprience-area {
+    width: 100%;
+    overflow: hidden;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+
+}
+
+.single-exprience-area {
+
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 250px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, #ffa07a, tomato);
+    border-image-slice: 1;
+    padding-right: 20px;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, blue, tomato);
+    border-image-slice: 1;
+    padding-right: 20px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
